@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+/* EVERYTHING IN THE BODY GOES TO THE CENTER */
+body{
+display:flex;
+justify-content:center ;
+align-items: center;
+}
+.main-box{
+    background-color: gray;
+    /* background-image: linear-gradient( to bottom right, grey,white,black); */
+    background-image: radial-gradient(grey, white, black);
+    /* background-image: repeating-linear-gradient(grey, white,black); */
+    width:900px;
+    Padding:2.5rem;
+    
+}
+.top-row{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    
+}
+
+.red-box{
+    background:red;
+    width:500px;
+    border:1px solid magenta;
+    height:250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+.orange-box{
+   background: orange;
+   width:300px;
+   border:1px solid mediumturquoise;
+   border-radius: 10px;
+   box-shadow: 10px 10px;
+}
+
+.bottom-row{
+display: flex;
+justify-content: center;
+gap:20px;
+}
+
+.green-box{
+    background:teal;
+    width:300px;
+    border:1px solid purple;
+    height:250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.white-boxes{
+    gap: 5px;
+    /* display:flex; */
+    /* flex-direction:column; */
+}
+
+.box-white{
+    background:white;
+    width: 500px;
+    border:1px solid purple;
+    height: 110px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+
+}
+
+
+

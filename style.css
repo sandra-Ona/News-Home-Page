@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Trispace:wght@300&family=Ubuntu:ital@0;1&display=swap');
+/* font-family: 'Inter', sans-serif; */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* root is a variable set for anything you want to do in the course of styling. it can take any variable you want and you call it up after saving */
+:root{
+    --font-size:15px;
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+}
+/* how to call up the root variables */
+p{
+    font-size:var(--font-size);
+    color:var(--Dark-grayish-blue);
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* border: 1px solid red; */
+}
+/* a:hover{
+    background-color: aquamarine; */
+ul{
+    display:flex;
+    gap:15px;
+    
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+ul li a {
+    color: var(--Dark-grayish-blue)
+}
+
+.hero-content{
+    margin-top: 40px;
+    display:flex;
+    /* border:10px solid red; */
+    justify-content:space-between;
+}
+.picture-container{
+    width: 600px;
+}
+.picture-container img{
+    width: 100%;
+    height:auto;
+}
+.text-info{
+    display:flex;
+    margin-top: 40px;
+    gap:30px;
+}
+.text-info h1{
+    font-size: 40px;
+    font-weight: 800px;
+    
+}
+.text-info div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    
+}
+.text-info div button{
+    width:150px;
+    height:40px;
+    font-size: 15px;
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    border:none;
+}
+.text-box{
+    width: 330px;
+    background-color: var(--Very-dark-blue);
+    padding: 20px;
+}
+.text-box h1{
+    color: var(--Soft-orange);
+    margin-bottom: 20px;
+}
+.text-box div{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+
+}
+
+.text-box div h4{
+color:var(--Off-white)
+}
+
+hr{
+    color: var(--Dark-grayish-blue);
+    border:0.2px solid;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap:15px;
+}
+    
+.inner-card{
+    width:300px;
+}
+.inner-card .items{
+    display:flex;
+    gap:10px;
+}
+
+.items img{
+    height:120px;
+    /* width: 100px; */
+}
+.items-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+.items-info h1{
+    color: var(--Grayish-blue);
+}
+.attribution{
+    margin-top: 100px;
+}

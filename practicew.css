@@ -1,0 +1,149 @@
+import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Trispace:wght@300&family=Ubuntu:ital@0;1&display=swap');
+/* font-family: 'Inter', sans-serif; */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* root is a variable set for anything you want to do in the course of styling. it can take any variable you want and you call it up after saving */
+:root{
+    --font-size:15px;
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+}
+/* how to call up the root variables */
+p{
+    font-size:var(--font-size);
+    color:var(--Dark-grayish-blue);
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* border: 1px solid red; */
+}
+/* a:hover{
+    background-color: aquamarine; */
+ul{
+    display:flex;
+    gap:15px;
+    border: 1px solid blue;   
+    
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+ul li a {
+    color: var(--Dark-grayish-blue)
+}
+.main-box{
+    background-color: white;
+    width:960px ;
+    height: 800px;
+    gap:10px;
+}
+.top-box{
+    display:flex;
+    gap:11px;
+}
+.big-picture {
+    width:630px;
+    height:500px;
+    background-color: white;
+    gap:11px;
+}
+
+.picture{
+    width:630px;
+    height:330px;
+    background-color: white;
+}
+
+.picture1{
+    width:630px;
+    height:160px;
+    background-color: white;
+    margin-top: 10px;
+    display:flex;
+    gap:11px;
+}
+
+.picture1a{
+    width:300px;
+    height:75;
+    background-color:white;
+}
+.picture1b{
+    width:326px;
+    height:75;
+    background-color: white;
+}
+
+.black{
+    width: 313px;
+    height: 500px;
+    background-color: rgb(16, 2, 2);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+h1{
+Color:var(--Soft-orange);
+margin-top: 10px;
+margin-left: 10px;
+}
+h3{
+    color:var(--Off-white);
+    margin-left: 10px;
+}
+.downside{
+    color:var(--Soft-orange);
+}
+  p{
+    margin-left: 10px;
+  }  
+  .bright{
+    color:var(--Very-dark-blue);
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.1rem;
+
+  }
+  .dive{
+    color: var(--Dark-grayish-blue)
+    var(--font-size)
+    font-family 'Inter', sans-serif;
+  }
+  
+.bottom-box{
+    width:960px;
+    height:280px;
+    background-color: white;
+    margin-top: 10px;
+    display:flex;
+    gap:11px;
+}
+
+.bottombox1{
+    width:313px;
+    height:275px;
+    background-color: white;
+    display:flex;  
+
+}
+.bottombox1a{
+    width:130px;
+    height:275px;
+    background-color: red;
+}
+
+
